@@ -11,7 +11,7 @@ class mytest(unittest.TestCase):
     pass
   #具体的测试用例，一定要以test开头
   def testsum(self):
-    self.assertEqual(Sparking.get_num_of_one(8,5), 3, 'test sum fail')
+    self.assertEqual(Sparking.get_num_of_one(8,5), 2, 'test sum fail')
 
 
 if __name__ =='__main__':
