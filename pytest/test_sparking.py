@@ -6,7 +6,7 @@ from sparking import Sparking
 
 class TestSparking(object):
     @pytest.mark.parametrize("bits_num, key, expected", [
-        (8, 5, 2),
+        #(8, 5, 2),
         (16, 5, 2),
         (32, 5, 2),
         (64, 5, 2)
